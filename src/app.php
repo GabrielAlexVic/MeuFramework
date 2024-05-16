@@ -18,12 +18,11 @@ $routes->add(
     )
 );
 
-// $routes->add(
-//     'hello',
-//     new Routing\Route(
-//         '/hello/{name}',
-//         array('name' => 'World')
-//     )
-// );
+$routes->add(
+    'home',
+    new Routing\Route(
+        '',
+    )
+);
 
 return $routes;
